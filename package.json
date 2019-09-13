@@ -1,0 +1,40 @@
+{
+  "name": "smktesting",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "runios": "react-native run-ios --simulator=\"iPhone 5s\"",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@react-native-community/async-storage": "github:react-native-community/async-storage",
+    "effector": "^20.2.1",
+    "effector-react": "^20.3.0",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-elements": "^1.2.0",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-image-crop-picker": "^0.25.2",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.0",
+    "react-navigation-drawer": "^2.2.0",
+    "react-navigation-stack": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.3.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
